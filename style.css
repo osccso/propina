@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0px;
+}
+label {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+.table {
+    display: table;
+    margin: 5px auto;
+}
+.div1 {
+    border: 3px solid black;
+    padding: 1px;
+}
+.div2 {
+    background-color: black;
+    margin: 5px 5px;
+    padding: 1px;
+    font-family: monospace;
+}
+.div2>p {
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+.div3 {
+    background-color: grey;
+    border-radius: 15px;
+    margin: 5px 10px;
+    padding: 10px;
+}
+.div3 .title {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 10px;
+}
+.div3 p {
+    font-size: x-large;
+}
+.resumen {
+    margin: auto;
+    text-align: center;
+}
+.resumen div {
+    display: inline-block;
+    text-align: left;
+}
+button {
+    background-color: grey;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 5px;
+    padding: 5px;
+}
+button:hover {
+    color: red;
+}
+button:active {     
+    background-color:yellow;    
+}
+button::after {     
+    background-color:gray;    
+}
+p {
+    font-size: x-large;
+}
